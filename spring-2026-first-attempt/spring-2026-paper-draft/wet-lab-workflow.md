@@ -44,7 +44,7 @@ With all the samples now collected, it was time to measure them in a spectromete
 
 This is an example of what the text files looked like:
 
-[Image: example spectrometer text file]
+![Example spectrometer text file](figures/spectrometer-text-file-example.png)
 
 Only two of the text columns were important to me: the second and third. The second column told me the wavelength, and the third column told me the absorbance at that specific wavelength. Unlike the colorimeter, where you have to set the wavelength you want to collect, UV-VI spectrometers show you the data at all wavelengths, letting you see where the absorbance peaks for each medication and whether or not it changes when magnesium is added.
 
@@ -52,13 +52,13 @@ Only two of the text columns were important to me: the second and third. The sec
 
 By going through the files from the UV-VI spectrometer, I now had the raw data to create standard calibration curves for each medication as well as compare the changes that occurred when magnesium was added.
 
-[Figure 1]
+![Figure 1](figures/figure-1.png)
 
-[Figure 2]
+![Figure 2](figures/figure-2.png)
 
-[Figure 3]
+![Figure 3](figures/figure-3.png)
 
-[Figure 4]
+![Figure 4](figures/figure-4.png)
 
 As it can probably be observed, for Diphenhydramine and Chlorpheniramine, the curves were almost perfectly linear. For Phenylephrine, the reason for it not being very linear is that the machine used to measure the absorbance maxes out at 5.000. Since absorbance is exponential and is equal to A = −log₁₀T, an absorbance of 5.000 means that 99.999% of the light was not able to get through to the detector. The reason Phenylephrine maxed out the absorbance but not the other two medications is due to its extremely high molar absorptivity constant (ϵ), meaning it essentially absorbs all the light that tries to pass through the UV-VI spectrometer.
 
