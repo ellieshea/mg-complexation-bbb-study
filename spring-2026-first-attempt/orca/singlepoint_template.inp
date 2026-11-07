@@ -1,1 +1,11 @@
-
+# ORCA 5.0.4 single point used in June 2026 (notebook STEP 6)
+# one file per molecule, e.g. diphenhydramine_mg_singlepoint.inp
+# run:  orca diphenhydramine_mg_singlepoint.inp > diphenhydramine_mg_singlepoint.out
+! B3LYP 6-31G(d) TightSCF
+%output
+Print[ P_Mulliken ] 1
+end
+* xyz 2 1
+# paste the drug's XYZ coordinates here, then add the Mg line, e.g.
+Mg 0.591433 0.225010 1.200000
+*
