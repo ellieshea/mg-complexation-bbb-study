@@ -1,1 +1,9 @@
-
+# ORCA scratch / large binary outputs
+*.gbw
+*.densities
+*.tmp
+*.bibinfo
+# Python
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
